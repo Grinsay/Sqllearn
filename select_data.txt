@@ -1,0 +1,10 @@
+/* выбрать все столбцы из таблицы */
+SELECT * FROM book;
+/* выбор определенных столбцов из  таблицы */
+SELECT author, title, price FROM book;
+/* отбор определенных столбцов и переименование их */
+SELECT title AS Название,author AS Автор FROM book;
+/* Выборка данных с созданием вычисляемого столбца */
+SELECT title, amount, amount * 1.65 AS pack FROM book;
+
+
